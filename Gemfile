@@ -20,6 +20,7 @@ gem "webpacker", "~> 4.0", require: ENV["SKIP_REQUIRE_WEBPACKER"] != "true"
 # This is to avoid Active Model (and by extension the entire framework)
 # being dependent on a binary library.
 gem "bcrypt", "~> 3.1.11", require: false
+gem 'sprockets', '3.7.2'
 
 # This needs to be with require false to avoid it being automatically loaded by
 # sprockets.
